@@ -1,0 +1,16 @@
+{
+  "name": "day-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/tailwind.css -o ./output/tailwind.css --watch",
+    "build": "tailwindcss -i ./src/tailwind.css -o ./output/tailwind.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
